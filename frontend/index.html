@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>RGSV dApp</title>
+</head>
+<body>
+
+<h1>RGSV dApp</h1>
+
+<button onclick="connectWallet()">
+Connect MetaMask
+</button>
+
+<p id="wallet"></p>
+
+<script>
+
+async function connectWallet() {
+
+  if(window.ethereum){
+
+    const accounts =
+      await ethereum.request({
+        method: 'eth_requestAccounts'
+      });
+
+    document.getElementById(
+      'wallet'
+    ).innerText =
+      "Wallet: " + accounts[0];
+
+  } else {
+
+    alert("Please install MetaMask");
+
+  }
+}
+
+</script>
+
+</body>
+</html>
