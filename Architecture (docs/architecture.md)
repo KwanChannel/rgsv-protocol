@@ -1,0 +1,14 @@
+# Architecture
+
+## Components
+- RGSV Token (ERC20)
+- Carbon NFT (ERC721)
+- Staking contract
+- Fee distribution
+
+## Network
+- BNB Chain Testnet
+
+## Storage
+- On-chain: transactions, token data
+- Off-chain: metadata, project data
