@@ -1,16 +1,16 @@
-# RGSV Tokenomics
-
-## Supply
-- Fixed supply model
-
-## Utility
-- Fee discount
-- Governance
-- Access to premium features
-
-## Reward Model
-- Revenue-based distribution
-- No fixed APY
-
-## Deflation
-- Buyback and burn using platform revenue
+rgsv-protocol/
+│
+├── contracts/
+│   ├── RGSV.sol
+│   └── RGSVStaking.sol
+│
+├── docs/
+│   ├── architecture.md
+│   └── tokenomics.md
+│
+├── frontend/
+│   ├── index.html
+│   └── marketplace.html
+│
+├── README.md
+└── LICENSE
